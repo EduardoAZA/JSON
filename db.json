@@ -1,0 +1,131 @@
+{
+  "itens":[
+     {
+        "id":"a3e3",
+        "nome":"Notebook Asus",
+        "tipo":"Produto",
+        "valor":100,
+        "codigo":"001",
+        "quantidade_estoque":100
+     },
+     {
+        "id":"3b4b",
+        "nome":"Formatação de Notebook",
+        "tipo":"Servico",
+        "valor":150,
+        "codigo":"002",
+        "parecer":""
+     },
+     {
+        "id":"2459",
+        "nome":"Mouse Logitech",
+        "tipo":"Produto",
+        "valor":50,
+        "codigo":"003",
+        "quantidade_estoque":200
+     },
+     {
+        "id":"fc9c",
+        "nome":"Reparação de Tela",
+        "tipo":"Servico",
+        "valor":200,
+        "codigo":"004",
+        "parecer":""
+     },
+     {
+        "id":"ba3b",
+        "nome":"Teclado Mecânico Redragon",
+        "tipo":"Produto",
+        "valor":250,
+        "codigo":"005",
+        "quantidade_estoque":75
+     },
+     {
+        "id":"8b9c",
+        "nome":"Notebook HP",
+        "tipo":"Produto",
+        "valor":2000,
+        "codigo":"006",
+        "quantidade_estoque":80
+     }
+  ],
+  "clientes":[
+     {
+        "id":"1",
+        "nome":"Eduardo",
+        "email":"Eduardo@gmail.com",
+        "endereco":"Rua Vinte Quatro de Maio, 412 - Rebouças - Curitiba - PR",
+        "telefone":"123456789"
+     }
+  ],
+  "usuarios":{
+     "id":1,
+     "nome":"Isaac",
+     "login":"tecnico"
+  },
+  "ordens_servico":[
+     {
+        "id":"195",
+        "itens":[
+           {
+              "valor":150,
+              "codigo":"002",
+              "parecer":"",
+              "quantidade":1
+           },
+           {
+              "valor":200,
+              "codigo":"004",
+              "parecer":"",
+              "quantidade":1
+           }
+        ],
+        "total":350,
+        "status":"Aberto",
+        "numero_os":"195",
+        "assinatura":"",
+        "cliente_id":1,
+        "data_horario":"2024-10-15 15:37:08"
+     },
+     {
+        "id":"196",
+        "itens":[
+           {
+              "valor":150,
+              "codigo":"002",
+              "parecer":"Parecer tecnico feito",
+              "quantidade":1
+           },
+           {
+              "valor":200,
+              "codigo":"004",
+              "parecer":"",
+              "quantidade":1
+           }
+        ],
+        "total":350,
+        "status":"Aguardando Aprovação",
+        "numero_os":"196",
+        "assinatura":"",
+        "cliente_id":1,
+        "data_horario":"2024-10-15 15:37:08"
+     },
+     {
+        "id":"197",
+        "itens":[
+           {
+              "valor":200,
+              "codigo":"004",
+              "parecer":"",
+              "quantidade":1
+           }
+        ],
+        "total":200,
+        "status":"Aguardando Aprovação",
+        "numero_os":"197",
+        "assinatura":"",
+        "cliente_id":1,
+        "data_horario":"2024-10-15 15:37:08"
+     }
+  ]
+}
